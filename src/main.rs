@@ -39,8 +39,8 @@ fn init_router(state: Arc<AppState>) -> Router {
 }
 
 async fn make_client() -> anyhow::Result<QdrantClient> {
-    let client = QdrantClient::from_url("https://addeb953-f2f0-4113-af5b-27c0145484f0.us-east4-0.gcp.cloud.qdrant.io:6333")
-        .with_api_key("Qb2MVEtWOYZ4Hi876mx4P2ztn_i8JYuGAnyv3c_5l7slLceBzy5BvA")
+    let client = QdrantClient::from_url("addss")
+        .with_api_key("api")
         .build().unwrap();
     Ok(client)
 }
